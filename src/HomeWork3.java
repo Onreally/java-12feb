@@ -80,7 +80,6 @@ public class HomeWork3 {
                     } else squad[i][j] = '.';
 
 
-
                 }
 
             } else {
@@ -93,14 +92,14 @@ public class HomeWork3 {
         }
         //заполняем нижнюю половину массива
         for (int i = n - 1; i > middle; i--) {
-            if (i==middle+1){
+            if (i == middle + 1) {
                 break;
             } else
-                for (int j = n-1; j >0 ; j--) {
-                    if (j==middle-1){
-                        squad[i][i-j]='*';
-                        squad[i][i-j]='*';
-                        squad[i][j]='*';
+                for (int j = n - 1; j > 0; j--) {
+                    if (j == middle - 1) {
+                        squad[i][i - j] = '*';
+                        squad[i][i - j] = '*';
+                        squad[i][j] = '*';
                     } else squad[i][j] = '.';
 
                 }
@@ -120,4 +119,5 @@ public class HomeWork3 {
 
         return null;
     }
+}
 
